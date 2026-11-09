@@ -1,1 +1,119 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Klaras Hamburgarshop</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+        <header>
+            <h1>Välkommen till Klaras Hamburgarshop</h1>
+        </header>
+          <main>
+
+            <section>
+                <h2>Våra hamburgare</h2>
+                    <p>Vi har burgare för alla!</p>
+                    <div style="display: inline-block">
+                        <h3>Brödburgare</h3>
+                        <a href="http://www.google.com/"></a>
+                        <img src="https://kikifoodies.com/wp-content/uploads/2025/01/F8BAB176-A5CA-4180-B832-7D2D21AE4664-1024x1024.jpeg"
+                         alt="Brödburgare" title="Brödburgare" style="width: 200px">
+                         <p>Allergener:</p>
+                         <ul>
+                            <li>Råg</li>
+                            <li>Vete</li>
+                            <li>Korn</li>
+                        </ul>
+                    </div>
+                    <div style="display: inline-block">
+                        <h3>Köttburgare</h3>
+                        <a href="http://www.google.com/"></a>
+                        <img src="https://beefensteak.nl/media/catalog/product/cache/67ee89799642c567a71fc92f3699d937/d/r/dry_aged_burger_pdp.jpg"
+                         alt="Köttburgare" title="Köttburgare" style="width: 200px">
+                         <p>Allergener:</p>
+                         <ul>
+                            <li>Nötkött</li>
+                            <li>Fläskkött</li>
+                            <li>Kycklingkött</li>
+                        </ul>
+                    </div>
+                    <div style="display: inline-block">
+                        <h3>Tomatburgare</h3>
+                        <a href="http://www.google.com/"></a>
+                        <img src="https://blankcanvasliving.com/wp-content/uploads/2017/11/tomato-burger1.jpeg"
+                         alt="Tomatburgare" title="Tomatburgare" style="width: 200px">
+                         <p>Allergener:</p>
+                         <ul>
+                            <li>Bifftomat</li>
+                            <li>San Marzano-tomat</li>
+                            <li>Körsbärstomat</li>
+                        </ul>
+                    </div>
+            </section>
+
+            <section id="contact">
+                <h2>Leveransinformation</h2>
+                    <p>Vänligen fyll i dina uppgifter nedan:</p>
+                    <form>
+                        <p>
+                            <label for="förnamn">Förnamn</label><br>
+                            <input type="text" id="förnamn" name="fn" required="required" placeholder="Förnamn">
+                        </p>
+                        <p>
+                            <label for="efternamn">Efternamn</label><br>
+                            <input type="text" id="efternamn" name="ln" placeholder="Efternamn">
+                        </p>
+                        <p>
+                            <label for="email">E-mail</label><br>
+                            <input type="email" id="email" name="em" required="required" placeholder="E-mailaddress">
+                        </p>
+                        <p>
+                            <label for="gatuaddress">Gatuaddress</label><br>
+                            <input type="text" id="gatuaddress" name="gatuaddress" required="required" placeholder="Gatuaddress">
+                        </p>
+                        <p>
+                            <label for="postnummer">Postnummer</label><br>
+                            <input type="number" id="postnummer" name="postnummer" required="required" placeholder="Postnummer">
+                        </p>
+                    </form>
+                    <textarea rows="4" cols="50" placeholder="Övrig information", maxlength="100"></textarea>
+            </section>
+
+            <section id="gender">
+                <h3>Könstillhörighet</h3>
+                <p>Vänligen välj identifierad könstillhörighet:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Man</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Kvinna</label><br>
+                <input type="radio" id="mouse" name="gender" value="mouse" checked="checked">
+                <label for="mouse">Mus</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Annat</label><br>
+            </section>
+
+            <section id="payment method">
+                <h2>Betalningsmetod</h2>
+                    <p>Vänligen välj din betalningsmetod:</p>
+                    <p>
+                        <label for="mottagare">Mottagare</label><be>
+                        <select id="mottagare" name="rcp">
+                            <option>Enkronor</option>
+                            <option selected="selected">MousePay</option>
+                            <option>Guldmynt</option>
+                            <option>Godis</option>
+                        </select>
+                    </p>
+            </section>
+            <section id="submit button">
+                <button type="submit">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwv0RkTfE89cb0243Uvhe2UGknFF6d_jGcPvZWIhZkgQ&s=10" style="width: 25px"> 
+                Skicka beställning
+                </button>
+            </section>
+          </main>
+          <footer>
+            &copy; 2026 Klaras hamburgershop
+          </footer>
+   </body>
+</html>
